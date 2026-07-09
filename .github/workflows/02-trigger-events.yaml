@@ -1,5 +1,6 @@
 name: 02 trigger events exploartions 
-on: push 
+on:
+  workflow_dispatch: 
 
 jobs:
   first-job:
